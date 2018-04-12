@@ -1,0 +1,22 @@
+# EBOLA_UTRS_Prediction_Alignement_probing1M7-NMIA
+This repository contains the data and python code files used to predict the Ebola-UTRS secondary structure. 
+This version is compatible with ViennaRNA-2.3.1, be sure the used version is above. 
+VArna version VARNAv3-93.jar should be added to the working repository. http://varna.lri.fr/index.php?lang=en&page=downloads&css=varna 
+
+# To launch the program
+RNAstruct.Config => for parameters configuration
+python2.7  Rnastruct.py
+
+#Input:
+Alignement => does contain MSA data used for this analysis. 
+fasta_files => RNA sequences
+fasta_Shape => SHAPE data with a specific extension.
+
+#Output: 
+OutputSamples1000 => structure samples used for the analysis
+Multiprobing => suggested centroids from RNAMPSP treatement.
+
+
+# Varna was furtherly used to modele structures with 1M7 data, results are stored in 'RNAMPSP_output_EBOLA'
+# Rchie, http://www.e-rna.org/r-chie/, was also used to assess the covariation in the MSA for the proposed strctures, results could be fount at 'PDF' folder.
+
